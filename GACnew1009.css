@@ -1,0 +1,134 @@
+ /*GACNew1 CSS */
+@charset "UTF-8";
+
+/*this is to keep page from shifting to left on load in safari and firefox*/
+html { min-height: 100%; margin-bottom: 1px; }
+html { overflow: -moz-scrollbars-vertical !important; }
+/* end of hack */
+
+p{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: normal;
+	padding: 3px;
+	border-top: 0;
+	padding-top: 3px;
+	padding-right: 12px;
+	padding-bottom: 3px;
+	padding-left: 18px;
+	border-bottom: 0px;
+	visibility: visible;
+}
+
+.bold {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #000000;
+}
+
+.navigation {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	background-color: #CCCCCC;
+	padding: 8px;
+	width: 180px;
+	display: block;
+	text-decoration: none;
+}
+
+/* begin Dreamweaver-provided CSS */
+body  {
+	background: #666666;
+	margin: 0; /* zero the margin,padding of the body to account for browser defaults */
+	padding: 0;
+	text-align: left; /* centers the container in IE 5* browsers. 
+						Text is set to left aligned default in #container */
+	color: #000000;
+	background-color: #CCCCCC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-top: 3px;
+}
+.twoColFixRtHdr #container {
+	width: 850px;
+	background: #EBEBEB;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	background-color: #EBEBEB;
+} 
+.twoColFixRtHdr #header {
+	padding: 0 0px 0 0px;
+	background-color: #FFFFFF;
+	outline-color: #999999;
+} 
+.twoColFixRtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin 
+				collapse - unexplainable space between divs. If the div has a border around it, 
+				this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away 
+				from the edges of the div */
+}
+.twoColFixRtHdr #sidebar1 {
+	float: right; /* since this element is floated, a width must be given */
+	width: 250px; /* the actual width of this div, in standards-compliant browsers, or 
+					standards mode in Internet Explorer will include the padding and border 
+					in addition to the width */
+	background: f5f5f5; /* the background color will be displayed for the length of the content 
+					in the column, but no further */
+	padding: 3px 10px;
+}
+.twoColFixRtHdr #mainContent {
+	margin: 0 280px 0 0; /* the right margin on this div element creates the column down the 
+						right side of the page - no matter how much content the sidebar1 div 
+						contains, the column space will remain. You can remove this margin 
+						if you want the #mainContent div's text to fill the #sidebar1 space 
+						when the content in #sidebar1 ends. */
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the 
+						space outside the div box */
+	border-right-color: #666666;
+	border-right-style: solid;
+	border-right-width: thin;
+	background: f5f5f5;
+} 
+.twoColFixRtHdr #footer {
+	padding: 0 10px 0 20px; /* this padding matches the left alignment of the elements in the divs 
+							that appear above it. */
+	background:#DDDDDD;
+	background-color: #660000;
+} 
+.twoColFixRtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility 
+				of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, 
+				without margin collapse */
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must 
+			precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.sidebar {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element 
+				before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
